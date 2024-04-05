@@ -104,7 +104,7 @@ public class RoutePlanner {
         System.out.print("Enter the destination intersection (D): ");
         int D = scanner.nextInt();
 
-        // Constructing the graph based on the distances matrix
+      
         for (int i = 0; i < N; i++) {
             for (int j = i + 1; j < N; j++) {
                 if (distances[i][j] > 0) {
